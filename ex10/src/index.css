@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+}
+
+#nav_bar {
+  float: right;
+}
+
+ul {
+  list-style: none;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+/* Obroisati */
+.nav-links {
+  margin-right: 5px;
+  margin-left: 0;
+}
+.nav-links:hover {
+  text-decoration: underline;
+}
+
+#sign_in {
+  margin-right: 20px;
+  border-radius: 3px;
+  background-color: #4285f4;
+  font-weight: 700;
+}
+
+#sign_in:hover {
+  box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.8);
+}
+
+a {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+
+#sign_in a {
+  color: #fff;
+}
+
+.google-image {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 150px 0 10px 0;
+}
+#google_logo {
+  padding: 0;
+}
+
+.form-search {
+  text-align: center;
+  padding: 10px;
+}
+#form-search {
+  width: 30%;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+.buttons {
+  text-align: center;
+  padding: 20px 10px;
+  margin-bottom: 340px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  border-top: 2px solid #dadada;
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+}
+
+footer ul {
+  padding: 3px;
+}
+
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 10px;
+}
+
+#footer-left {
+  float: left;
+  text-align: center;
+}
+
+#footer-right {
+  text-align: center;
+  float: right;
+}
